@@ -1,16 +1,18 @@
 import { Music, Scissors, Heart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import Navbar from "@/components/Navbar";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white">
-      <header className="py-8 px-4 md:px-8 text-center">
+      <Navbar />
+      <header className="py-16 px-4 md:px-8 text-center">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">Embrace the Emo Culture</h1>
         <p className="text-xl md:text-2xl text-gray-400">Explore the world of emotion, music, and self-expression</p>
       </header>
 
-      <main className="container mx-auto px-4 md:px-8">
+      <main className="container mx-auto px-4 md:px-8 pt-8">
         <section className="mb-12">
           <h2 className="text-3xl font-semibold mb-6">What is Emo?</h2>
           <p className="text-lg text-gray-300 mb-4">
